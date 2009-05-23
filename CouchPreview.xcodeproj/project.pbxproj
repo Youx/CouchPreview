@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		9A8723BD0FC55D3D00E3ACAA /* CouchPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */; };
+		9A8723E50FC5695900E3ACAA /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723D30FC5695900E3ACAA /* AppleRemote.m */; };
+		9A8723E60FC5695900E3ACAA /* GlobalKeyboardDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723D50FC5695900E3ACAA /* GlobalKeyboardDevice.m */; };
+		9A8723E70FC5695900E3ACAA /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723D70FC5695900E3ACAA /* HIDRemoteControlDevice.m */; };
+		9A8723E80FC5695900E3ACAA /* KeyspanFrontRowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723D90FC5695900E3ACAA /* KeyspanFrontRowControl.m */; };
+		9A8723EB0FC5695900E3ACAA /* MultiClickRemoteBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723DE0FC5695900E3ACAA /* MultiClickRemoteBehavior.m */; };
+		9A8723EC0FC5695900E3ACAA /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723E00FC5695900E3ACAA /* RemoteControl.m */; };
+		9A8723ED0FC5695900E3ACAA /* RemoteControlContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723E20FC5695900E3ACAA /* RemoteControlContainer.m */; };
+		9A8723EE0FC5695900E3ACAA /* RemoteFeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8723E40FC5695900E3ACAA /* RemoteFeedbackView.m */; };
+		9A8723F10FC569CC00E3ACAA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8723F00FC569CC00E3ACAA /* IOKit.framework */; };
+		9A8724A60FC56A9800E3ACAA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8724A50FC56A9800E3ACAA /* Carbon.framework */; };
+		9A8724B10FC574FE00E3ACAA /* CouchApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8724B00FC574FE00E3ACAA /* CouchApplication.m */; };
+		9A8724C40FC5795F00E3ACAA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */; };
+		9ABEBAC60FC775DB00C5215C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABEBAC50FC775DB00C5215C /* Quartz.framework */; };
+		9ABEBADC0FC7767600C5215C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABEBADB0FC7767600C5215C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* CouchPreview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchPreview_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* CouchPreview.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchPreview.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8723BB0FC55D3D00E3ACAA /* CouchPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchPreview.h; sourceTree = "<group>"; };
+		9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchPreview.m; sourceTree = "<group>"; };
+		9A8723D20FC5695900E3ACAA /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		9A8723D30FC5695900E3ACAA /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		9A8723D40FC5695900E3ACAA /* GlobalKeyboardDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalKeyboardDevice.h; sourceTree = "<group>"; };
+		9A8723D50FC5695900E3ACAA /* GlobalKeyboardDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalKeyboardDevice.m; sourceTree = "<group>"; };
+		9A8723D60FC5695900E3ACAA /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		9A8723D70FC5695900E3ACAA /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		9A8723D80FC5695900E3ACAA /* KeyspanFrontRowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyspanFrontRowControl.h; sourceTree = "<group>"; };
+		9A8723D90FC5695900E3ACAA /* KeyspanFrontRowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyspanFrontRowControl.m; sourceTree = "<group>"; };
+		9A8723DD0FC5695900E3ACAA /* MultiClickRemoteBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiClickRemoteBehavior.h; sourceTree = "<group>"; };
+		9A8723DE0FC5695900E3ACAA /* MultiClickRemoteBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiClickRemoteBehavior.m; sourceTree = "<group>"; };
+		9A8723DF0FC5695900E3ACAA /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		9A8723E00FC5695900E3ACAA /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		9A8723E10FC5695900E3ACAA /* RemoteControlContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControlContainer.h; sourceTree = "<group>"; };
+		9A8723E20FC5695900E3ACAA /* RemoteControlContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControlContainer.m; sourceTree = "<group>"; };
+		9A8723E30FC5695900E3ACAA /* RemoteFeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteFeedbackView.h; sourceTree = "<group>"; };
+		9A8723E40FC5695900E3ACAA /* RemoteFeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteFeedbackView.m; sourceTree = "<group>"; };
+		9A8723F00FC569CC00E3ACAA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		9A8724A50FC56A9800E3ACAA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		9A8724AF0FC574FE00E3ACAA /* CouchApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchApplication.h; sourceTree = "<group>"; };
+		9A8724B00FC574FE00E3ACAA /* CouchApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchApplication.m; sourceTree = "<group>"; };
+		9A8724B60FC5760500E3ACAA /* PVApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVApplication.h; sourceTree = "<group>"; };
+		9A8724C20FC5795F00E3ACAA /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		9A8725EC0FC6197500E3ACAA /* PVImageWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageWindowController.h; sourceTree = "<group>"; };
+		9ABEBAB10FC7747F00C5215C /* IKSlideshowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSlideshowController.h; sourceTree = "<group>"; };
+		9ABEBAC50FC775DB00C5215C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		9ABEBADB0FC7767600C5215C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9ABEBAEB0FC7774D00C5215C /* IKSlideshow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSlideshow.h; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				9A8723F10FC569CC00E3ACAA /* IOKit.framework in Frameworks */,
+				9A8724A60FC56A9800E3ACAA /* Carbon.framework in Frameworks */,
+				9ABEBAC60FC775DB00C5215C /* Quartz.framework in Frameworks */,
+				9ABEBADC0FC7767600C5215C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* CouchPreview */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEBADB0FC7767600C5215C /* QuartzCore.framework */,
+				9ABEBAC50FC775DB00C5215C /* Quartz.framework */,
+				9A8724B50FC575F700E3ACAA /* Apple */,
+				9A8723D10FC5695900E3ACAA /* RemoteControlWrapper */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = CouchPreview;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A8724C20FC5795F00E3ACAA /* JRSwizzle.h */,
+				9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */,
+				9A8723BB0FC55D3D00E3ACAA /* CouchPreview.h */,
+				9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */,
+				9A8724AF0FC574FE00E3ACAA /* CouchApplication.h */,
+				9A8724B00FC574FE00E3ACAA /* CouchApplication.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8724A50FC56A9800E3ACAA /* Carbon.framework */,
+				9A8723F00FC569CC00E3ACAA /* IOKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* CouchPreview.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* CouchPreview_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		9A8723D10FC5695900E3ACAA /* RemoteControlWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				9A8723D20FC5695900E3ACAA /* AppleRemote.h */,
+				9A8723D30FC5695900E3ACAA /* AppleRemote.m */,
+				9A8723D40FC5695900E3ACAA /* GlobalKeyboardDevice.h */,
+				9A8723D50FC5695900E3ACAA /* GlobalKeyboardDevice.m */,
+				9A8723D60FC5695900E3ACAA /* HIDRemoteControlDevice.h */,
+				9A8723D70FC5695900E3ACAA /* HIDRemoteControlDevice.m */,
+				9A8723D80FC5695900E3ACAA /* KeyspanFrontRowControl.h */,
+				9A8723D90FC5695900E3ACAA /* KeyspanFrontRowControl.m */,
+				9A8723DD0FC5695900E3ACAA /* MultiClickRemoteBehavior.h */,
+				9A8723DE0FC5695900E3ACAA /* MultiClickRemoteBehavior.m */,
+				9A8723DF0FC5695900E3ACAA /* RemoteControl.h */,
+				9A8723E00FC5695900E3ACAA /* RemoteControl.m */,
+				9A8723E10FC5695900E3ACAA /* RemoteControlContainer.h */,
+				9A8723E20FC5695900E3ACAA /* RemoteControlContainer.m */,
+				9A8723E30FC5695900E3ACAA /* RemoteFeedbackView.h */,
+				9A8723E40FC5695900E3ACAA /* RemoteFeedbackView.m */,
+			);
+			path = RemoteControlWrapper;
+			sourceTree = "<group>";
+		};
+		9A8724B50FC575F700E3ACAA /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				9A8724B60FC5760500E3ACAA /* PVApplication.h */,
+				9A8725EC0FC6197500E3ACAA /* PVImageWindowController.h */,
+				9ABEBAB10FC7747F00C5215C /* IKSlideshowController.h */,
+				9ABEBAEB0FC7774D00C5215C /* IKSlideshow.h */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* CouchPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "CouchPreview" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouchPreview;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = CouchPreview;
+			productReference = 8D5B49B6048680CD000E48DA /* CouchPreview.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "CouchPreview" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* CouchPreview */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* CouchPreview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8723BD0FC55D3D00E3ACAA /* CouchPreview.m in Sources */,
+				9A8723E50FC5695900E3ACAA /* AppleRemote.m in Sources */,
+				9A8723E60FC5695900E3ACAA /* GlobalKeyboardDevice.m in Sources */,
+				9A8723E70FC5695900E3ACAA /* HIDRemoteControlDevice.m in Sources */,
+				9A8723E80FC5695900E3ACAA /* KeyspanFrontRowControl.m in Sources */,
+				9A8723EB0FC5695900E3ACAA /* MultiClickRemoteBehavior.m in Sources */,
+				9A8723EC0FC5695900E3ACAA /* RemoteControl.m in Sources */,
+				9A8723ED0FC5695900E3ACAA /* RemoteControlContainer.m in Sources */,
+				9A8723EE0FC5695900E3ACAA /* RemoteFeedbackView.m in Sources */,
+				9A8724B10FC574FE00E3ACAA /* CouchApplication.m in Sources */,
+				9A8724C40FC5795F00E3ACAA /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = CouchPreview;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = CouchPreview;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "CouchPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "CouchPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
