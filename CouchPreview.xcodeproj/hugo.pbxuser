@@ -262,9 +262,9 @@
 	};
 	9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {833, 1582}}";
-			sepNavSelRange = "{380, 0}";
-			sepNavVisRange = "{0, 1103}";
+			sepNavIntBoundsRect = "{{0, 0}, {833, 1596}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{22, 1096}";
 		};
 	};
 	9A8723D40FC5695900E3ACAA /* GlobalKeyboardDevice.h */ = {
@@ -305,14 +305,20 @@
 	};
 	9A8724B60FC5760500E3ACAA /* PVApplication.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {833, 1092}}";
+			sepNavIntBoundsRect = "{{0, 0}, {833, 1064}}";
 			sepNavSelRange = "{297, 0}";
-			sepNavVisRange = "{0, 871}";
+			sepNavVisRange = "{87, 883}";
 		};
 	};
 	9A8724C20FC5795F00E3ACAA /* JRSwizzle.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JRSwizzle.h;
+		path = /Users/hugo/Documents/Development/CouchPreview/JRSwizzle.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {833, 350}}";
+			sepNavIntBoundsRect = "{{0, 0}, {833, 497}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 574}";
 		};
@@ -352,7 +358,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 17";
 		rLen = 0;
-		rLoc = 1103;
+		rLoc = 1081;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -382,7 +388,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 26";
 		rLen = 0;
-		rLoc = 1103;
+		rLoc = 1081;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 0;
@@ -442,7 +448,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 20";
 		rLen = 0;
-		rLoc = 662;
+		rLoc = 640;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 3;
@@ -512,7 +518,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 20";
 		rLen = 0;
-		rLoc = 662;
+		rLoc = 640;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 3;
@@ -532,7 +538,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 23";
 		rLen = 0;
-		rLoc = 917;
+		rLoc = 895;
 		rType = 0;
 		vrLen = 1336;
 		vrLoc = 3;
@@ -562,7 +568,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 25";
 		rLen = 0;
-		rLoc = 1103;
+		rLoc = 1081;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 3;
@@ -612,7 +618,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 31";
 		rLen = 0;
-		rLoc = 1139;
+		rLoc = 1117;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 22;
@@ -712,7 +718,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 15";
 		rLen = 0;
-		rLoc = 497;
+		rLoc = 475;
 		rType = 0;
 		vrLen = 1613;
 		vrLoc = 22;
@@ -732,7 +738,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 32";
 		rLen = 0;
-		rLoc = 1070;
+		rLoc = 1048;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 344;
@@ -772,7 +778,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 42";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 1435;
 		rType = 0;
 		vrLen = 1299;
 		vrLoc = 86;
@@ -816,7 +822,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 29";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 728;
 		vrLoc = 494;
@@ -836,7 +842,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 29";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 1453;
@@ -866,7 +872,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 57";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3031;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 1568;
@@ -896,7 +902,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 30";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 464;
@@ -986,7 +992,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 47";
 		rLen = 28;
-		rLoc = 1491;
+		rLoc = 1469;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 1344;
@@ -1006,7 +1012,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 30";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 373;
@@ -1073,7 +1079,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 65";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3031;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 1202;
@@ -1107,7 +1113,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 58";
 		rLen = 0;
-		rLoc = 1877;
+		rLoc = 1855;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 1579;
@@ -1217,7 +1223,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 40";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 439;
@@ -1247,7 +1253,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 42";
 		rLen = 0;
-		rLoc = 946;
+		rLoc = 924;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 620;
@@ -1277,7 +1283,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 84";
 		rLen = 0;
-		rLoc = 2242;
+		rLoc = 2220;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 1485;
@@ -1287,7 +1293,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 84";
 		rLen = 0;
-		rLoc = 2242;
+		rLoc = 2220;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 1512;
@@ -1307,7 +1313,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 90";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2360;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 1968;
@@ -1327,7 +1333,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 97";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2673;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 1968;
@@ -1347,7 +1353,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 97";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2673;
 		rType = 0;
 		vrLen = 1087;
 		vrLoc = 1968;
@@ -1357,7 +1363,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 101";
 		rLen = 0;
-		rLoc = 2756;
+		rLoc = 2734;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 2185;
@@ -1367,7 +1373,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 99";
 		rLen = 0;
-		rLoc = 2764;
+		rLoc = 2742;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 1922;
@@ -1377,7 +1383,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 101";
 		rLen = 0;
-		rLoc = 2824;
+		rLoc = 2802;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 2382;
@@ -1387,7 +1393,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 101";
 		rLen = 0;
-		rLoc = 2824;
+		rLoc = 2802;
 		rType = 0;
 		vrLen = 953;
 		vrLoc = 2015;
@@ -1397,7 +1403,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 104";
 		rLen = 0;
-		rLoc = 2900;
+		rLoc = 2878;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 2385;
@@ -1407,7 +1413,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 105";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 2910;
 		rType = 0;
 		vrLen = 731;
 		vrLoc = 2631;
@@ -1417,7 +1423,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 105";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 2910;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 2631;
@@ -1427,7 +1433,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 105";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 2910;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 2748;
@@ -1437,7 +1443,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 107";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 2910;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 2720;
@@ -1494,7 +1500,7 @@
 		comments = "error: ImageKit/IKSlideshow.h: No such file or directory";
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		rLen = 0;
-		rLoc = 19;
+		rLoc = 18;
 		rType = 1;
 	};
 	9ABEBAD10FC7760800C5215C /* PBXTextBookmark */ = {
@@ -1502,7 +1508,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 107";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 2910;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 2142;
@@ -1542,7 +1548,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 15";
 		rLen = 0;
-		rLoc = 496;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 0;
@@ -1572,7 +1578,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 16";
 		rLen = 0;
-		rLoc = 496;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -1582,7 +1588,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 16";
 		rLen = 0;
-		rLoc = 496;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 3;
@@ -1602,7 +1608,7 @@
 		comments = "warning: 'IKSlideshow' may not respond to '-controller'";
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		rLen = 1;
-		rLoc = 91;
+		rLoc = 90;
 		rType = 1;
 	};
 	9ABEBAE80FC7771200C5215C /* PBXTextBookmark */ = {
@@ -1610,7 +1616,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 16";
 		rLen = 0;
-		rLoc = 437;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 86;
@@ -1630,7 +1636,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 97";
 		rLen = 30;
-		rLoc = 2666;
+		rLoc = 2644;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 2217;
@@ -1677,7 +1683,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 18";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 470;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 158;
@@ -1695,7 +1701,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 97";
 		rLen = 30;
-		rLoc = 2666;
+		rLoc = 2644;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 2217;
@@ -1745,7 +1751,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 17";
 		rLen = 0;
-		rLoc = 461;
+		rLoc = 439;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1765,7 +1771,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 18";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 470;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 158;
@@ -1795,7 +1801,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 18";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 470;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 158;
@@ -1855,7 +1861,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 103";
 		rLen = 0;
-		rLoc = 2996;
+		rLoc = 2974;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 1995;
@@ -1865,7 +1871,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 31";
 		rLen = 0;
-		rLoc = 643;
+		rLoc = 621;
 		rType = 0;
 		vrLen = 1299;
 		vrLoc = 2065;
@@ -1875,7 +1881,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 91";
 		rLen = 0;
-		rLoc = 2674;
+		rLoc = 2652;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 2145;
@@ -1905,7 +1911,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 15";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 358;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 0;
@@ -1929,7 +1935,7 @@
 		fRef = 9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */;
 		name = "CouchPreview.m: 15";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 358;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 0;

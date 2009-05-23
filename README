@@ -1,0 +1,58 @@
+CouchPreview
+============
+
+Welcome to CouchPreview!
+
+
+Getting the code
+----------------
+
+Check out http://github.com/Youx/CouchPreview for the wiki, bug tracking, etc...
+The bleeding edge code can be grabbed from the git repository on github :
+
+	$ git clone git://github.com/Youx/CouchPreview.git
+
+For information about Git, please see http://www.git-scm.com
+
+
+How to build CouchPreview
+-------------------------
+
+To build CouchPreview.bundle from source, you will need : 
+- a Mac
+- XCode
+
+Open the project file in XCode, then hit build.
+
+This will create a CouchPreview.bundle in build/Release/
+
+
+How to install CouchPreview
+---------------------------
+
+To use CouchPreview, you will need to have SIMBL installed.
+Grab it from here : http://www.culater.net/software/SIMBL/SIMBL.php
+
+Then, you just need to drop the CouchPreview.bundle into ~/Library/Application Support/SIMBL/Plugins/
+
+
+Languages
+--------------
+
+English
+French
+German
+
+You can help too.
+
+Author(s)
+---------
+
+Hugo Camboulive (Youx) <hugo.camboulive [AT] gmail.com>
+
+
+Thanks
+------
+
+Martin Kahr (martinkahr.com) for his Apple Remote library.
+Mike Solomon for creating SIMBL.

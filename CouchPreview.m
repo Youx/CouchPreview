@@ -11,7 +11,6 @@
 #import "RemoteControlWrapper/AppleRemote.h"
 #import "RemoteControlWrapper/KeyspanFrontRowControl.h"
 #import "CouchApplication.h"
-#import "JRSwizzle.h"
 
 /* Dumped headers */
 #import "PVImageWindowController.h"

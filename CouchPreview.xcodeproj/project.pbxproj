@@ -21,7 +21,6 @@
 		9A8723F10FC569CC00E3ACAA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8723F00FC569CC00E3ACAA /* IOKit.framework */; };
 		9A8724A60FC56A9800E3ACAA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8724A50FC56A9800E3ACAA /* Carbon.framework */; };
 		9A8724B10FC574FE00E3ACAA /* CouchApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8724B00FC574FE00E3ACAA /* CouchApplication.m */; };
-		9A8724C40FC5795F00E3ACAA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */; };
 		9ABEBAC60FC775DB00C5215C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABEBAC50FC775DB00C5215C /* Quartz.framework */; };
 		9ABEBADC0FC7767600C5215C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABEBADB0FC7767600C5215C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -57,8 +56,6 @@
 		9A8724AF0FC574FE00E3ACAA /* CouchApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchApplication.h; sourceTree = "<group>"; };
 		9A8724B00FC574FE00E3ACAA /* CouchApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchApplication.m; sourceTree = "<group>"; };
 		9A8724B60FC5760500E3ACAA /* PVApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVApplication.h; sourceTree = "<group>"; };
-		9A8724C20FC5795F00E3ACAA /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		9A8725EC0FC6197500E3ACAA /* PVImageWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVImageWindowController.h; sourceTree = "<group>"; };
 		9ABEBAB10FC7747F00C5215C /* IKSlideshowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKSlideshowController.h; sourceTree = "<group>"; };
 		9ABEBAC50FC775DB00C5215C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
@@ -120,8 +117,6 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9A8724C20FC5795F00E3ACAA /* JRSwizzle.h */,
-				9A8724C30FC5795F00E3ACAA /* JRSwizzle.m */,
 				9A8723BB0FC55D3D00E3ACAA /* CouchPreview.h */,
 				9A8723BC0FC55D3D00E3ACAA /* CouchPreview.m */,
 				9A8724AF0FC574FE00E3ACAA /* CouchApplication.h */,
@@ -264,7 +259,6 @@
 				9A8723ED0FC5695900E3ACAA /* RemoteControlContainer.m in Sources */,
 				9A8723EE0FC5695900E3ACAA /* RemoteFeedbackView.m in Sources */,
 				9A8724B10FC574FE00E3ACAA /* CouchApplication.m in Sources */,
-				9A8724C40FC5795F00E3ACAA /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
