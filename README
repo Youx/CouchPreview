@@ -2,7 +2,14 @@ CouchPreview
 ============
 
 Welcome to CouchPreview!
+This SIMBL plugin for Preview.app allows you to browse your images
+from your couch, using your Apple Remote.
 
+Commands :
+- Next and previous work as expected (slideshow and normal mode)
+- Push next/previous a long time to go to first/last image
+- Menu enters/exits the slideshow
+- Play/pause works as expected (only in slideshow mode)
 
 Getting the code
 ----------------
